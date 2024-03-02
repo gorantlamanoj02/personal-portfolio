@@ -12,7 +12,7 @@ const Home = () => {
 					Gorantla Manoj Kumar.
 				</h1>
 				<h2 className="text-4xl sm:text-3xl font-bold text-[#8892b0] pt-2">
-					I'm a Full Stack Developer | Tech - Enthusiast.
+					I'm a Web Developer | Graphic Designer | Tech - Enthusiast | Passionate Learner.
 				</h2>
 				<p className="text-[#8892b0] py-4 max-w-[700px]">
 				I concentrate on full-stack development, debugging, testing, and developing impactful websites for humanity's benefit.
