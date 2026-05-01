@@ -12,10 +12,10 @@ const Home = () => {
 					Gorantla Manoj Kumar.
 				</h1>
 				<h2 className="text-4xl sm:text-3xl font-bold text-[#8892b0] pt-2">
-					I'm a Web Developer | Graphic Designer | Tech - Enthusiast | Passionate Learner.
+					Associate Engineer | Full-Stack Developer | Master's Student | Tech Enthusiast.
 				</h2>
 				<p className="text-[#8892b0] py-4 max-w-[700px]">
-				I concentrate on full-stack development, debugging, testing, and developing impactful websites for humanity's benefit.
+				Pursuing Master of Engineering in Information Systems Security CO-OP at Concordia University. Specialized in test automation, full-stack development, and cybersecurity solutions. Passionate about delivering quality software and building innovative applications.
 				</p>
 				<div>
 					<button

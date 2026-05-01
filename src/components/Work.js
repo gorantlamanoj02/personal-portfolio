@@ -1,4 +1,6 @@
 import React from "react";
+import DevSecOPs from "../assets/DevSecOps.png";
+import SecureChat from "../assets/SecureChat.png";
 import AgroSilvics from "../assets/AgroSilvics.jpg";
 import VIVA from "../assets/VIVA.jpg";
 import Ushort from '../assets/Ushort.jpg';
@@ -8,8 +10,19 @@ import "./Work.css";
 
 const ownProjects = [
 	{
+		name: "Agile Forensics & Security Pipeline",
+		img_link: DevSecOPs,
+		git_link: "https://github.com/gorantlamanoj02/AgileForensics",
+	},
+	{
+		name: "Secure End-to-End Messaging System",
+		img_link: SecureChat,
+		git_link: "https://github.com/gorantlamanoj02/SecureChat",
+	},
+	{
 		name: "AgroSilvics",
 		img_link: AgroSilvics,
+		git_link: "https://github.com/gorantlamanoj02/AgroSilvics",
 	},
 	{
 		name: "VIVA",
@@ -22,33 +35,35 @@ const ownProjects = [
 		git_link: "https://github.com/gorantlamanoj02/UShort",
 	},
 	{
-		name: "Drama Land",
+		name: "DramaLand",
 		img_link: DramaLand,
-		git_link: "https://github.com/gorantlamanoj02/DramaLand/tree/master",
+		git_link: "https://github.com/gorantlamanoj02/Drama-Land",
 	},
 ];
 
 
-const allProjects = ownProjects.map((project) => {
+const allProjects = ownProjects.map((project, index) => {
 	return (
-		<div class="flex justify-center">
-			<figure class="snip1193">
-				<img src={project.img_link} alt="sample31" />
+		<div key={index} className="flex justify-center">
+			<figure className="snip1193">
+				<img src={project.img_link} alt={project.name} />
 				<figcaption>
 					<div>
 						<h4 className="opacity-100">{project.name}</h4>
 					</div>
 					<a
 						href={project.git_link}
-						class="bottom-left"
-						target="__blank">
-						<i class="ion-social-github"></i>
+						className="bottom-left"
+						target="_blank"
+						rel="noopener noreferrer">
+						<i className="ion-social-github"></i>
 					</a>
 					<a
 						href={project.display_link}
-						class="bottom-right"
-						target="__blank">
-						<i class="ion-android-bulb"></i>
+						className="bottom-right"
+						target="_blank"
+						rel="noopener noreferrer">
+						<i className="ion-android-bulb"></i>
 					</a>
 				</figcaption>
 			</figure>
@@ -62,9 +77,9 @@ const Work = () => {
 		name="work" id="work">
 			<div className="flex flex-col justify-center items-center w-full h-full">
 				<p className="text-4xl font-bold inline border-b-4 border-pink-600">
-					Work.
+					Projects.
 				</p>
-				<p className="pt-8">Checkout some of my previous work.</p>{" "}
+				<p className="pt-8">Checkout some of my personal and academic projects.</p>{" "}
 				<br></br>
 				<div class="container mx-auto">
 					<div class="grid md:grid-cols-3 sm:grid-cols-1 gap-6">

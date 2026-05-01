@@ -16,12 +16,12 @@ const About = () => {
 				<div className="max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4">
 					<div className="sm:text-right text-4xl font-bold">
 						<p>
-							Hi. I'm Manoj, nice to meet you. Check out the portfolio.
+							Hi. I'm Manoj, nice to meet you.
 						</p>
 					</div>
 					<div>
 						<p>
-						Passionate software creator, shaping excellence, and enhancing lives with innovative solutions.
+						I'm a driven QA Automation Engineer and Full-Stack Developer currently pursuing my Master of Engineering in Information Systems Security CO-OP at Concordia University, Montreal. With professional experience at Cigniti as an Associate Engineer and expertise in test automation frameworks like Selenium and Katalon Studio, I specialize in delivering quality solutions. I'm passionate about cybersecurity, innovative problem-solving, and building impactful applications that drive business value. Always eager to learn emerging technologies and contribute to fast-moving teams.
 						</p>
 					</div>
 				</div>

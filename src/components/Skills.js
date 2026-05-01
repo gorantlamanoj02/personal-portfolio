@@ -5,8 +5,13 @@ import {
 	DiJavascript,
 	DiReact,
 	DiNodejs,
-	DiGithubBadge
+	DiGithubBadge,
+	DiJava,
+	DiPython,
+	DiDocker,
+	DiDatabase
 } from "react-icons/di";
+import { SiSelenium, SiJenkins } from "react-icons/si";
 
 const Skills = () => {
 	return (
@@ -19,7 +24,7 @@ const Skills = () => {
 						My Skills.
 					</p>
 				</div>
-				<p>These are the technologies I worked with till date.</p>
+				<p>Frontend | Backend | Database | QA & DevOps Technologies</p>
 
 				<div className="px-20 w-full grid grid-cols-2 sm:grid-cols-4 text-center py-8 gap-y-5">
 					<div className="mx-auto justify-center items-center">
@@ -32,19 +37,43 @@ const Skills = () => {
 					</div>
 					<div className="mx-auto justify-center items-center">
 						<DiJavascript size={50} className='w-full'/>
-						<p className="py-2">JS</p>
-					</div>
-					<div className="mx-auto justify-center items-center">
-						<DiGithubBadge size={50} className='w-full'/>
-						<p className="py-2">Github</p>
-					</div>
-					<div className="mx-auto justify-center items-center">
-						<DiNodejs size={50} className='w-full'/>
-						<p className="py-2">NodeJS</p>
+						<p className="py-2">JavaScript</p>
 					</div>
 					<div className="mx-auto justify-center items-center">
 						<DiReact size={50} className='w-full'/>
-						<p className="py-2">ReactJS</p>
+						<p className="py-2">React JS</p>
+					</div>
+					<div className="mx-auto justify-center items-center">
+						<DiNodejs size={50} className='w-full'/>
+						<p className="py-2">Node JS</p>
+					</div>
+					<div className="mx-auto justify-center items-center">
+						<DiJava size={50} className='w-full'/>
+						<p className="py-2">Java</p>
+					</div>
+					<div className="mx-auto justify-center items-center">
+						<DiPython size={50} className='w-full'/>
+						<p className="py-2">Python</p>
+					</div>
+					<div className="mx-auto justify-center items-center">
+						<DiDatabase size={50} className='w-full'/>
+						<p className="py-2">OracleSQL</p>
+					</div>
+					<div className="mx-auto justify-center items-center">
+						<SiSelenium size={50} className='w-full'/>
+						<p className="py-2">Selenium</p>
+					</div>
+					<div className="mx-auto justify-center items-center">
+						<DiGithubBadge size={50} className='w-full'/>
+						<p className="py-2">Git/GitHub</p>
+					</div>
+					<div className="mx-auto justify-center items-center">
+						<DiDocker size={50} className='w-full'/>
+						<p className="py-2">Docker</p>
+					</div>
+					<div className="mx-auto justify-center items-center">
+						<SiJenkins size={50} className='w-full'/>
+						<p className="py-2">Jenkins</p>
 					</div>
 				</div>
 			</div>

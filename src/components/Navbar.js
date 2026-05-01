@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import {
 	FaBars,
 	FaTimes,
-	FaFacebook,
 	FaInstagram,
 	FaGithub,
 	FaLinkedin,
@@ -32,10 +31,16 @@ const Navbar = () => {
 					<a href="#about">About Me</a>
 				</li>
 				<li>
+					<a href="#education">Education</a>
+				</li>
+				<li>
+					<a href="#experience">Experience</a>
+				</li>
+				<li>
 					<a href="#skills">Skills</a>
 				</li>
 				<li>
-					<a href="#work">Prev. Work</a>
+					<a href="#work">Projects</a>
 				</li>
 				<li>
 					<a href="#contact">Contact Me</a>
@@ -55,11 +60,27 @@ const Navbar = () => {
 						? "hidden"
 						: "absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center"
 				}>
-				<li className="py-6 text-4xl">Home</li>
-				<li className="py-6 text-4xl">About</li>
-				<li className="py-6 text-4xl">Skills</li>
-				<li className="py-6 text-4xl">Prev. Work</li>
-				<li className="py-6 text-4xl">Contact me</li>
+				<li className="py-6 text-4xl">
+					<a href="#home" onClick={clickHandler}>Home</a>
+				</li>
+				<li className="py-6 text-4xl">
+					<a href="#about" onClick={clickHandler}>About</a>
+				</li>
+				<li className="py-6 text-4xl">
+					<a href="#education" onClick={clickHandler}>Education</a>
+				</li>
+				<li className="py-6 text-4xl">
+					<a href="#experience" onClick={clickHandler}>Experience</a>
+				</li>
+				<li className="py-6 text-4xl">
+					<a href="#skills" onClick={clickHandler}>Skills</a>
+				</li>
+				<li className="py-6 text-4xl">
+					<a href="#work" onClick={clickHandler}>Projects</a>
+				</li>
+				<li className="py-6 text-4xl">
+					<a href="#contact" onClick={clickHandler}>Contact</a>
+				</li>
 			</ul>
 
 			{/* Social icons -> On the Left */}
@@ -67,14 +88,14 @@ const Navbar = () => {
 				<ul>
 					<li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300">
 						<a
-							href="https://www.instagram.com/m.a.n.o.j_02/"
+							href="https://www.instagram.com/manoj_02._/"
 							className="flex justify-between items-center w-full text-gray-300">
 							Instagram <FaInstagram size={20} />
 						</a>
 					</li>
 					<li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300">
 						<a
-							href="https://www.linkedin.com/in/gorantla-manoj-kumar/"
+							href="https://www.linkedin.com/in/gorantlamanojkumar/"
 							className="flex justify-between items-center w-full text-gray-300">
 							Linkedin <FaLinkedin size={20} />
 						</a>
