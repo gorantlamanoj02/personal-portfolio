@@ -1,7 +1,7 @@
 
 ## This is my personal portfolio.
 
-https://gorantlamanoj02.netlify.com
+https://gorantlamanoj02.netlify.app
 
 This website contains all my projects including their codes as well as display websites.
 
